@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "page": {
+      "properties": {
+        "id_category": {
+          "type": "keyword"
+        },
+        "type": "keyword"
+        }
+      }
+    }
+  }
+}

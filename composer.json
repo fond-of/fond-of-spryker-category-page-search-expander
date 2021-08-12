@@ -1,0 +1,41 @@
+{
+  "name": "fond-of-spryker/category-page-search-expander",
+  "description": "Expand Spryker Category-Page-Search Module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Rose",
+      "email": "daniel-rose@gmx.de"
+    },
+    {
+      "name": "Jozsef Geng",
+      "email": "gengjozsef86@gmail.com"
+    },
+    {
+      "name": "Pascal Fischer",
+      "email": "p-fischer@gmx.net"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "spryker/category-page-search": "~1.0.0"
+  },
+  "require-dev": {
+    "fond-of-codeception/spryker": "^1.0",
+    "spryker/code-sniffer": "*",
+    "spryker-sdk/phpstan-spryker": "*"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "FondOfSpryker\\": "src/FondOfSpryker/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "FondOfSpryker\\": "tests/FondOfSpryker/",
+      "Generated\\": "tests/Generated/"
+    }
+  }
+}
